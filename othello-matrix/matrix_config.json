@@ -1,0 +1,11 @@
+{
+    "LEDs": [
+        { "physical_address": 0, "logical_address": "A1", "zone": "Inner Ring" },
+        { "physical_address": 1, "logical_address": "A2", "zone": "Inner Ring" },
+        { "physical_address": 2, "logical_address": "B1", "zone": "Middle Ring" },
+        { "physical_address": 3, "logical_address": "B2", "zone": "Middle Ring" },
+        { "physical_address": 4, "logical_address": "B3", "zone": "Middle Ring" },
+        { "physical_address": 5, "logical_address": "C1", "zone": "Outer Ring" },
+        { "physical_address": 6, "logical_address": "C2", "zone": "Outer Ring" }
+    ]
+}

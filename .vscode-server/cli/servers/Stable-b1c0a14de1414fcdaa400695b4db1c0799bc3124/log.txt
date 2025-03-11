@@ -1,0 +1,54 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-006c9de8-f0f7-4a9d-879d-365e2dc6c4a0
+Extension host agent listening on /tmp/code-006c9de8-f0f7-4a9d-879d-365e2dc6c4a0
+
+[03:05:44] 
+
+
+
+
+[03:05:44] Extension host agent started.
+[03:05:44] [<unknown>][b06cb9bc][ExtensionHostConnection] New connection established.
+[03:05:44] Started initializing default profile extensions in extensions installation folder. file:///home/othello/.vscode-server/extensions
+[03:05:44] [<unknown>][11061e52][ManagementConnection] New connection established.
+[03:05:44] Completed initializing default profile extensions in extensions installation folder. file:///home/othello/.vscode-server/extensions
+[03:05:44] [<unknown>][b06cb9bc][ExtensionHostConnection] <2143> Launched Extension Host Process.
+[03:05:54] [<unknown>][11061e52][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:06:07] [<unknown>][7606d61a][ExtensionHostConnection] New connection established.
+[03:06:07] [<unknown>][fd540d7e][ManagementConnection] New connection established.
+[03:06:07] [<unknown>][7606d61a][ExtensionHostConnection] <2248> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at k.U (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateTitle (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26037)
+    at D.<computed> (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:06:09] Error [CodeExpectedError]: Could not find pty on pty host
+    at k.U (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateTitle (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26037)
+    at D.<computed> (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/othello/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

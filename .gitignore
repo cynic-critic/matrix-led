@@ -1,0 +1,17 @@
+# Node.js dependencies
+frontend/node_modules/
+backend/node_modules/
+
+# Python dependencies
+rpi-service/venv/
+
+# Build artifacts
+frontend/dist/
+.vite/
+
+# IDE & System Files
+.DS_Store
+*.log
+
+# Environment variables
+.env
