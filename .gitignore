@@ -13,8 +13,10 @@ frontend/dist/
 .DS_Store
 *.log
 .vscode-server/*
-.ssh/*
+.ssh/
 .local/*
+*.local
+*.secret
 
 # Environment variables
 .env
