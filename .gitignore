@@ -12,6 +12,11 @@ frontend/dist/
 # IDE & System Files
 .DS_Store
 *.log
+.vscode-server/*
+.ssh/
+.local/*
+*.local
+*.secret
 
 # Environment variables
 .env
