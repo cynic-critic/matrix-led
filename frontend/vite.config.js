@@ -22,6 +22,8 @@ export default defineConfig({
         'process.env': {}, // Mocks `process.env` to prevent frontend compatibility issues
     },
     server: {
+        host: true,
+        port: 5173,
         watch: {
             usePolling: true // Ensures file updates are detected reliably
         }
